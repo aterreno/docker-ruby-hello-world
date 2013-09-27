@@ -1,2 +1,0 @@
-docker-ruby-hello-world
-=======================
