@@ -10,7 +10,7 @@ RUN apt-get install -y ruby rubygems
 RUN mkdir /opt/sinatra
 
 ADD server.rb /opt/sinatra/server.rb
-ADD Gemfile /opt/sinatra/Gemfile.rb
+ADD Gemfile /opt/sinatra/Gemfile
 ADD Procfile /opt/sinatra/Procfile
 
 RUN gem install bundler
