@@ -9,7 +9,7 @@ RUN apt-get install -y ruby rubygems
 
 RUN mkdir /opt/sinatra
 
-ADD sinatra.rb /opt/sinatra/sinatra.rb
+ADD server.rb /opt/sinatra/server.rb
 ADD Gemfile /opt/sinatra/Gemfile.rb
 ADD Procfile /opt/sinatra/Procfile
 
